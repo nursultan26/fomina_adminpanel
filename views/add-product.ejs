@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%=title%></title>
+	<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+	<div class="add-form">
+		<form action="/add-product" method="POST">
+			<input name="name" 			type="text" placeholder="Название">	
+			<select  name="category">
+			    <option selected="selected">Категория</option>
+			    <option value="Чебурашка">sad</option> 
+		   	</select>
+		   	<select  name="subcategory">
+			    <option selected="selected">Подкатегория</option>
+			    <option value="Чебурашка">sad</option> 
+		   	</select>
+			<input name="img" 			type="file" placeholder="Картинка">
+			<input name="price" 		type="text" placeholder="Цена">
+			<input name="description" 	type="area" placeholder="Описание">
+			<input name="appointment" 	type="text" placeholder="Назначение">
+			<input name="result" 		type="text" placeholder="Результат">
+			<input name="structure" 	type="text" placeholder="Состав">
+			<input name="note" 			type="text" placeholder="Примечание">
+			<input name="volume" 		type="text" placeholder="Объем">
+			<input name="articul" 		type="text" placeholder="Артикул">
+			<input 						type="submit" value="Отправить">
+		</form>
+	</div>
+</body>
+</html>
